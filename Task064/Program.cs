@@ -17,5 +17,4 @@ string DataEntry(string text)
 }
 
 int n = Convert.ToInt32(DataEntry("Введите значение N: "));
-// string result = NumbersRec(n);
 Console.WriteLine(NumbersRec(n));
